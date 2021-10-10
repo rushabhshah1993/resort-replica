@@ -5,9 +5,8 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    z-index: 50;
+    z-index: 120;
 }
-
 
 #hero {
     background: url('./../assets/images/hero.jpg');

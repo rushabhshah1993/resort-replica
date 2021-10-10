@@ -22,6 +22,22 @@ nav ul {
 nav ul li {
     list-style-type: none;
     margin-right: 8px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:visited,
+nav ul li a:link, 
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li.active {
+    border-bottom: 3px solid #149fcb;
+    color: #149fcb;
 }
 
 nav ul li:last-child {
