@@ -9,7 +9,8 @@ header {
 }
 
 #hero {
-    background: url('./../assets/images/hero.jpg');
+    background-image: url('./../assets/images/hero.jpg');
+    background-size: cover;
     height: 60vh;
     position: relative;
 }
